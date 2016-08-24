@@ -32,7 +32,7 @@ The following podspec (example) may be used, logs can be shared via `emptyDir` v
 
 ```yaml
 - name: mtail
-  image: FIXME/mtail:latest
+  image: jaymedh/docker-mtail:latest
   command:
       - /bin/mtail
       - -logtostderr
